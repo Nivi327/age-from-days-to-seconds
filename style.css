@@ -8,10 +8,17 @@
   opacity: 0.3;
 }
 
-.container {
+.row {
+  display: flex;
+  flex-direction: row;
+  margin-left: 20px;
   position: absolute;
   top: calc(30%);
-  left: calc(35%);
+}
+
+
+.container {
+  flex: 0.5;
   border: 1px solid transpatent;
   padding: 10px 10px;
   text-align: center;
@@ -96,12 +103,9 @@
 }
 
 #output {
+  flex: 0.5;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border: 1px solid transparent;
-  position: absolute;
-  bottom: calc(18%);
-  left: calc(35%);
-  width: 40%;
   padding-left: 30px;
 }
 
