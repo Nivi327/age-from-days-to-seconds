@@ -1,0 +1,112 @@
+.image_container {
+  align-items: center;
+  text-align: center;
+}
+
+.image {
+  height: 96vh;
+  opacity: 0.3;
+}
+
+.container {
+  position: absolute;
+  top: calc(30%);
+  left: calc(35%);
+  border: 1px solid transpatent;
+  padding: 10px 10px;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.top {
+  text-align: center;
+}
+
+.challenge h1 {
+  color: rgb(24, 24, 24);
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.btn {
+  padding: 10px;
+}
+
+.clickme {
+  background-color: rgb(35, 35, 201);
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.clickme:active {
+  border-radius: 20px;
+}
+
+.clickme:hover {
+  background-color: rgb(96, 196, 96);
+}
+
+.reset {
+  background-color: rgb(201, 26, 26);
+  color: white;
+  cursor: pointer;
+  border: none;
+  padding: 15px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 10px;
+}
+
+.reset:hover {
+  background-color: rgb(255, 94, 45);
+}
+
+.reset:active {
+  border-radius: 20px;
+}
+
+.col {
+  padding: 15px 15px;
+}
+
+.clickme-btn {
+  padding-left: 100px;
+}
+
+.result {
+  border: 1px solid tranparent;
+  height: 60px;
+}
+
+.result:hover {
+  background-color: black;
+  color: white;
+  transition: 0.4s;
+}
+
+#output {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border: 1px solid transparent;
+  position: absolute;
+  bottom: calc(18%);
+  left: calc(35%);
+  width: 40%;
+  padding-left: 30px;
+}
+
+#output:hover {
+  background-color: black;
+  color: white;
+  transition: 0.4s;
+}
